@@ -1,0 +1,22 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[left=2.5cm, top=3.5cm, right=2.5cm]{geometry}
+
+\author{Marcelo Garlet Millani}
+\title{}
+\date{\today}
+
+\newcounter{dice}
+\setcounter{dice}{2}
+
+\begin{document}
+	\pagenumbering{gobble}
+	\pagestyle{fancy}
+	\lhead{\textbf{{\Huge\thedice}111}}
+	\rhead{\textbf{{\Huge\thedice}666}}
+	\input{list}
+
+\end{document}
