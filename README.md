@@ -12,7 +12,7 @@ Just make sure you have `ghc` and `cabal` installed. Then run
 
     cabal install
 
-The binary `dice2tex` will be created.
+The binary `dice2tex` will be created. This project is also available on [Hackage](http://hackage.haskell.org/package/dice2tex)
 
 ## Usage
 
